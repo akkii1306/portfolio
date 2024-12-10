@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akanksha - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="header-container">
+            <img src="pfp.jpg" alt="Akanksha" class="profile-photo">
+            <div class="header-text">
+                <h1>Akanksha</h1>
+                <p>Student</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="parallax">
+        <h2>About Me</h2>
+        <p>I'm currently a student at IIIT Bhagalpur doing my B.Tech in Computer Science and Engineering. I have experience in competitive programming, DSA and webdevelopment and love working on projects that involve the same.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Achivements</h2>
+        <div class="project-card">
+            <h3>coding</h3>
+            <p>2 star coder in codechef and among 30% in leetcode</p>
+        </div>
+        <div class="project-card">
+            <h3>hackathon</h3>
+            <p>secured 19th rank in internal hackathon</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Akanksha</p>
+        <a href="mailto:akanksha200413@gmail.com"> <img src="emailimg.png" class="emaill"> </a>
+        <a href="www.linkedin.com/in/akanksha-kumari-27b251293"> <img src="iconli.png" class="emaill"> </a>
+    </footer>
+</body>
+</html>
+
